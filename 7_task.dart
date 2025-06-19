@@ -12,7 +12,7 @@ void checkDayNumber(int dayNumber) {
       print('Friday');
     case 6:
     case 7:
-      print('Weekend');
+      print('Weekend');g
       print(dayNumber == 6 ? 'Saturday' : 'Sunday');
     default:
       print('Invalid day number');
